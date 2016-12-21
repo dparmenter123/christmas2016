@@ -1,0 +1,59 @@
+.text {
+  position: absolute;
+  font-family: "Mountains of Christmas";
+  font-size: 72px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 80.6px;
+}
+#text1 {
+    color: red	     
+}
+#text2 {
+    color: green;
+    bottom: 0px;
+    right: 0px;
+}
+#bird1 {
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  bottom: 200px;
+  right: 100px;
+  position: absolute;
+}
+#bird2 {
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  bottom: 100px;
+  position: absolute;
+}
+#bird3 {
+  width: 100px;
+  height: 100px;
+  left: 500px;
+  bottom: 100px;
+  position: absolute;
+}
+#ornaments {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  display: none;
+}
+#cardinal1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 341px;
+    top: 308px;
+}
+#cardinal2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 479px;
+    top: 285px;
+}
