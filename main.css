@@ -1,3 +1,6 @@
+* {
+    position: absolute;
+}
 .text {
   position: absolute;
   font-family: "Mountains of Christmas";
@@ -8,12 +11,14 @@
   line-height: 80.6px;
 }
 #text1 {
-    color: red	     
+    color: red;
+    top: 0px;
+    left: 100px;
 }
 #text2 {
     color: green;
     top: 600px;
-    right: 0px;
+    left: 200px;
 }
 #bird1 {
   width: 100px;
@@ -61,4 +66,13 @@
     position: absolute;
     left: 350px;
     top: 445px;
+}
+#branches {
+    z-index: -1;
+}
+canvas {
+    display: block;
+    z-index: 100;
+    width: 600px;
+    height: 600px;
 }
