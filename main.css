@@ -18,7 +18,8 @@
 #text2 {
     color: green;
     top: 600px;
-    left: 200px;
+    left: 50px;
+    width: 1000px;
 }
 #bird1 {
   width: 100px;
