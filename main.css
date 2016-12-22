@@ -12,7 +12,7 @@
 }
 #text2 {
     color: green;
-    top: 550px;
+    top: 600px;
     right: 0px;
 }
 #bird1 {
@@ -56,4 +56,9 @@
     position: absolute;
     left: 316px;
     top: 228px;
+}
+#gnome {
+    position: absolute;
+    left: 350px;
+    top: 445px;
 }
