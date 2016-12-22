@@ -5,20 +5,20 @@ function step1() {
 
 function step2() {
     var orn = {
-	top: '260px',
-	left: '50px'
+	top: '204px',
+	left: '44px'
     };
     var bird1 = {
-	top: '73px',
-	left: '300px'
+	top: '54px',
+	left: '225px'
     };
     var bird2 = {
-	top: '233px',
-	left: '538px'
+	top: '175px',
+	left: '402px'
     };
     var bird3 = {
-	top: '133px',
-	left: '199px'
+	top: '97px',
+	left: '149px'
     };
     $("#ornaments").css("display", "initial");
     $("#bird1").animate(bird1, { duration: 5000 });

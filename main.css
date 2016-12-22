@@ -12,7 +12,7 @@
 }
 #text2 {
     color: green;
-    bottom: 0px;
+    top: 550px;
     right: 0px;
 }
 #bird1 {
@@ -47,13 +47,13 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 341px;
-    top: 308px;
+    left: 272px;
+    top: 179px;
 }
 #cardinal2 {
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 479px;
-    top: 285px;
+    left: 316px;
+    top: 228px;
 }
