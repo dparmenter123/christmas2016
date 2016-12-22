@@ -29,7 +29,7 @@ function snow() {
 	ctx.clearRect(0, 0, W, H);
 	
 	ctx.fillStyle = "rgba(0, 255, 255, 0.8)";
-	ctx.fillStyle = "#808080";
+	ctx.fillStyle = "#CCCCCC";
 	ctx.beginPath();
 	for(var i = 0; i < mp; i++)
 	{
