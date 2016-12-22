@@ -64,7 +64,18 @@ function step1() {
 	top: '97px',
 	left: '149px'
     };
+    var card1 = {
+	left: '272px',
+	top: '179px'
+    };
+    var card2 = {
+	left: '316px',
+	top: '228px'
+    };
+	
     $("#ornaments").css("display", "initial");
+    $("#cardinal1").animate(card1, { duration: 3000, easing: 'easeInOutCubic' });
+    $("#cardinal2").animate(card2, { duration: 4000, easing: 'easeInOutCubic' });
     $("#bird1").animate(bird1, { duration: 5000, easing: 'easeInOutCubic' });
     $("#bird2").animate(bird2, { duration: 5000, easing: 'easeInOutCubic' });
     $("#bird3").animate(bird3, { duration: 7000, easing: 'easeInOutCubic' });
