@@ -11,12 +11,13 @@
   line-height: 80.6px;
 }
 #text1 {
-    color: red;
+    color: #d95226;
     top: 0px;
     left: 100px;
+    width: 1000px;
 }
 #text2 {
-    color: green;
+    color: #5b852a;
     top: 600px;
     left: 25px;
     width: 1000px;

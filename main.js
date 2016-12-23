@@ -1,8 +1,6 @@
-function snow() {
-    var canvas = document.getElementById("canvas");
+function snow(canv, mp, style) {
+    var canvas = document.getElementById(canv);
     var ctx = canvas.getContext("2d");
-    ctx.fillStyle = "#FF0000";
-    ctx.fillRect(0,0,150,75);
 
     //canvas dimensions
     var W = window.innerWidth;
@@ -11,15 +9,14 @@ function snow() {
     canvas.height = H;
     
     //snowflake particles
-    var mp = 2500; //max particles
     var particles = [];
     for(var i = 0; i < mp; i++)
     {
 	particles.push({
-	    x: Math.random()*W, //x-coordinate
-	    y: Math.random()*H, //y-coordinate
-	    r: Math.random()*4+1, //radius
-	    d: Math.random()*mp //density
+	    x: Math.random() * W,   //x-coordinate
+	    y: Math.random() * H,   //y-coordinate
+	    r: Math.random() * 4+1, //radius
+	    d: Math.random() * mp   //density
 	})
     }
 
@@ -27,9 +24,7 @@ function snow() {
     function draw()
     {
 	ctx.clearRect(0, 0, W, H);
-	
-	ctx.fillStyle = "rgba(0, 255, 255, 0.8)";
-	ctx.fillStyle = "#CCCCCC";
+	ctx.fillStyle = style;
 	ctx.beginPath();
 	for(var i = 0; i < mp; i++)
 	{
@@ -47,6 +42,21 @@ function step1() {
 	height: '50px',
 	width: '600px',
 	top: '550px'
+    };
+    var snow2 = {
+	height: '100px',
+	width: '600px',
+	top: '400px'
+    };
+    var snow3 = {
+	height: '150px',
+	width: '600px',
+	top: '300px'
+    };
+    var snow4 = {
+	height: '200px',
+	width: '600px',
+	top: '350px'
     };
     var orn = {
 	top: '204px',
@@ -80,10 +90,16 @@ function step1() {
     $("#bird2").animate(bird2, { duration: 5000, easing: 'easeInOutCubic' });
     $("#bird3").animate(bird3, { duration: 7000, easing: 'easeInOutCubic' });
     $("#ornaments").animate(orn, { duration: 4000 });
-    $("#canvas").animate(snow, { duration: 10000 });
+    $("#canvas").animate(snow, { duration: 10000, easing: 'easeInOutCubic' });
+    $("#canvas2").animate(snow2, { duration: 20000, easing: 'easeInOutCubic' });
+    $("#canvas3").animate(snow3, { duration: 20000, easing: 'easeInOutCubic' });
+    $("#canvas4").animate(snow4, { duration: 60000, easing: 'easeInOutCubic' });
 };
 
 function run() {
-    snow();
+    snow("canvas",  1000, "#CCCCCC");
+    snow("canvas2", 1000, "#DDDDDD");
+    snow("canvas3", 500, "#DDDDDD");
+    snow("canvas4", 250, "#DDDDDD");
     step1();
 }
