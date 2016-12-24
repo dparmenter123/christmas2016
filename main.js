@@ -64,23 +64,23 @@ function step1() {
     };
     var bird1 = {
 	top: '54px',
-	left: '225px'
+	left: '220px'
     };
     var bird2 = {
-	top: '175px',
-	left: '402px'
+	top: '165px',
+	left: '390px'
     };
     var bird3 = {
 	top: '97px',
 	left: '149px'
     };
     var card1 = {
-	left: '272px',
-	top: '179px'
+	left: '155px',
+	top: '190px'
     };
     var card2 = {
-	left: '316px',
-	top: '228px'
+	left: '355px',
+	top: '230px'
     };
 	
     $("#ornaments").css("display", "initial");
