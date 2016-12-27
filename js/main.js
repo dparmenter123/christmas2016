@@ -40,22 +40,18 @@ function snow(canv, mp, style) {
 function step1() {
     var snow = {
 	height: '50px',
-	width: '600px',
 	top: '550px'
     };
     var snow2 = {
 	height: '100px',
-	width: '600px',
 	top: '400px'
     };
     var snow3 = {
 	height: '150px',
-	width: '600px',
 	top: '300px'
     };
     var snow4 = {
 	height: '200px',
-	width: '600px',
 	top: '350px'
     };
     var orn = {
@@ -96,6 +92,7 @@ function step1() {
 };
 
 function run() {
+    // 3 shades of gray
     snow("canvas",  1000, "#CCCCCC");
     snow("canvas2", 1000, "#DDDDDD");
     snow("canvas3", 500, "#EEEEEE");
