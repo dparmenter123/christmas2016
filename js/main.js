@@ -83,7 +83,6 @@ function step1() {
 	top: '230px'
     };
 	
-    $("#ornaments").css("display", "initial");
     $("#cardinal1").animate(card1, { duration: 3000, easing: 'easeInOutCubic' });
     $("#cardinal2").animate(card2, { duration: 4000, easing: 'easeInOutCubic' });
     $("#bird1").animate(bird1, { duration: 5000, easing: 'easeInOutCubic' });
@@ -99,7 +98,7 @@ function step1() {
 function run() {
     snow("canvas",  1000, "#CCCCCC");
     snow("canvas2", 1000, "#DDDDDD");
-    snow("canvas3", 500, "#DDDDDD");
+    snow("canvas3", 500, "#EEEEEE");
     snow("canvas4", 250, "#DDDDDD");
     step1();
 }

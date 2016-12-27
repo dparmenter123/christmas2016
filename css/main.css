@@ -3,7 +3,6 @@
 }
 
 .text {
-  position: absolute;
   font-family: "Mountains of Christmas";
   font-size: 72px;
   font-style: normal;
@@ -29,44 +28,36 @@
   left: 0px;
   bottom: 200px;
   right: 100px;
-  position: absolute;
 }
 #bird2 {
   width: 100px;
   height: 100px;
   left: 0px;
   bottom: 100px;
-  position: absolute;
 }
 #bird3 {
   width: 100px;
   height: 100px;
   left: 500px;
   bottom: 100px;
-  position: absolute;
 }
 #ornaments {
   width: 100px;
   height: 100px;
-  position: absolute;
-  display: none;
 }
 #cardinal1 {
     width: 100px;
     height: 100px;
-    position: absolute;
     left: 25px;
     top: 400px;
 }
 #cardinal2 {
     width: 100px;
     height: 100px;
-    position: absolute;
     left: 550px;
     top: 400px;
 }
 #gnome {
-    position: absolute;
     left: 125px;
     top: 445px;
 }
